@@ -33,7 +33,7 @@ p {
 }
 
 #title {
-  background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+  background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  #20BF55 0%, #087EE1 100.2% );
   color: #fff;
   text-align: left;
 }
@@ -75,7 +75,7 @@ p {
   width: 100%;
   /* transform: rotate(25deg); */
   /* position: absolute; */
-  margin-top: 80px;
+  margin-top: 0px;
   padding-right: 120px;
   margin-right: 50px;
 }
@@ -83,14 +83,14 @@ p {
 /* icons */
 
 .icons {
-  color: #1363DF;
+  color: #087EE1;
   /* text-align: center; */
   margin-bottom: 1rem;
   
 }
 
 .icons:hover {
-  color:#94e5ff;
+  color:#20BF55;
 }
 
 /* Feature Sections */
@@ -113,7 +113,7 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+  background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  #20BF55 0%, #087EE1 100.2% );
   /* background-color: #06283D; */
   /* background-color: #1363DF; */
   color: #fff
@@ -152,7 +152,7 @@ p {
 /* Press */
 
 #press{
-  background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+  background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  #20BF55 0%, #087EE1 100.2% );
   /* background-color: #06283D; */
   padding-bottom: 3%;
 }
@@ -181,7 +181,7 @@ p {
 /* Call to Action */
 
 #cta {
-  background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+  background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  #20BF55 0%, #087EE1 100.2% );
   /* background-color: #06283D; */
   color: #fff;
   padding: 7% 15%;
@@ -219,14 +219,13 @@ p {
 
 @media (max-width: 1028px) {
   .title-image {
-    width: 70%;
-    position: static;
-    transform: rotate(0);
-    /* display: none;  */
-    padding-left: 0px;
+    width: 110%;
+    padding-top: 35px;
+    margin-left: 30px;
     margin-bottom: 15px; 
     text-align: center;
-  }
+    
+  } 
   
 
   #title {
@@ -241,7 +240,7 @@ p {
   }
 
 .big-heading {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
