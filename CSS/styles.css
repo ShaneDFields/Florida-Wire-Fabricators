@@ -1,6 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat";
   text-align: center;
+  box-sizing: border-box;
 }
 
 h1,
@@ -13,18 +26,24 @@ h6 {
   font-weight: 900;
 }
 
+h3 {
+  color: #1363de;
+}
+
 p {
-  color: #8f8f8f;
+  color: black;
 }
 
 /* Headings */
 
-.big-heading {
+.heading {
   font-family: "Montserrat", sans-serif;
-  font-size: 3rem;
+  font-size: 6rem;
   line-height: 1.5;
   font-weight: 900;
-  padding-top: 40px;
+  padding-top: 15rem;
+  padding-left: 8rem;
+  padding-right: 4rem;
 }
 
 .section-heading {
@@ -32,31 +51,44 @@ p {
   line-height: 1.5;
 }
 
-.container-fluid {
+/* .container-fluid {
   padding: 3% 15% 7%;
-}
+} */
 
 #title {
   /* background-color: #4b79a1 ; */
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle farthest-corner at 12.3% 19.3%,
     #4b79a1 0%,
     #c0c0c0 100.2%
-  );
-  color: #fff;
+  ); */
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 213, 111, 0.5),
+      rgba(40, 180, 133, 0.5)
+    ),
+    url("../images/tyler-shaw-BP1Q3Ib_Pyo-unsplash.jpg");
+  background-size: cover;
+
+  color: whitesmoke;
   text-align: left;
+  height: 100vh;
 }
 
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  /* padding: 0 0 4.5rem; */
+  background-color: whitesmoke;
+
+  top: 0;
 }
 
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
+  height: 125px;
 }
 
 .nav-item {
@@ -66,10 +98,14 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
-  font-weight: bold;
-  color: #fff;
+  font-weight: 400;
+  color: #1363de !important;
+  text-transform: uppercase;
 }
 
+.nav-text {
+  color: #55c57a;
+}
 /* Download Buttons */
 
 .download-button {
@@ -87,26 +123,27 @@ p {
 /* icons */
 
 .icons {
-  color: #087ee1;
+  color: #55c57a;
   /* text-align: center; */
   margin-bottom: 1rem;
 }
 
 .icons:hover {
-  color: #c0c0c0;
+  color: #55c57a;
 }
 
 /* Feature Sections */
 
 #features {
   padding: 7% 15%;
-  background-color: #fff;
+  background-color: whitesmoke;
   position: relative;
   z-index: 1;
 }
 
 .feature-title {
   font-size: 1.5rem;
+  color: #1363de;
 }
 
 .feature-box {
@@ -118,11 +155,9 @@ p {
 #testimonials {
   background-image: radial-gradient(
     circle farthest-corner at 12.3% 19.3%,
-    #4b79a1 0%,
-    #c0c0c0 100.2%
+    #7ed56f 0%,
+    #28b485 100.2%
   );
-
-
   color: #fff;
 }
 
@@ -156,8 +191,8 @@ p {
 #press {
   background-image: radial-gradient(
     circle farthest-corner at 12.3% 19.3%,
-    #4b79a1 0%,
-    #c0c0c0 100.2%
+    #7ed56f 0%,
+    #28b485 100.2%
   );
   /* background-color: #06283D; */
   padding-bottom: 3%;
@@ -172,11 +207,25 @@ p {
 
 #pricing {
   padding: 100px;
+  background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    #7ed56f 0%,
+    #28b485 100.2%
+  );
+}
+
+.price-heading {
+  color: white;
+}
+
+.price-sub {
+  color: white;
 }
 
 .price-text {
   font-size: 3rem;
   line-height: 1.5;
+  color: #1363de;
 }
 
 .pricing-column {
@@ -186,28 +235,52 @@ p {
 /* Call to Action */
 
 #cta {
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle farthest-corner at 12.3% 19.3%,
     #4b79a1 0%,
     #c0c0c0 100.2%
-  );
-  /* background-color: #06283D; */
-  color: #fff;
-  padding: 7% 15%;
+  ); */
+  background-color: whitesmoke;
+  color: #28b485;
+  padding: 100px;
+  padding-bottom: 200px;
+}
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  padding-top: 5rem;
+  padding-left: 15rem;
+  padding-right: 4rem;
 }
 
 .about-us-p {
   font-family: "Montserrat";
   font-weight: 400;
-  color: #fff;
+  color: black;
   font-size: 1.5rem;
-  padding-top: 20px;
+  padding-top: 60px;
+}
+
+.contact-heading {
+  margin-top: 7rem;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #28b485;
+}
+
+#contactForm {
+  margin-top: 2rem;
+  margin-bottom: 7rem;
 }
 
 /* Footer */
 
 #footer {
-  padding: 7% 15%;
+  background-color: whitesmoke;
+  padding-top: 20px;
 }
 
 .social-icon {
@@ -215,12 +288,14 @@ p {
   margin: 20px 10px;
 }
 
-.footer-contact {
-  padding-top: 20px;
+.footer-info {
+  padding-bottom: 5px;
 }
 
 .footer-cc {
-  padding-top: 60px;
+  /* padding-top: 30px; */
+  color: black;
+  padding-bottom: 1rem;
 }
 
 /* Media */
