@@ -79,7 +79,7 @@ p {
 
 .navbar {
   /* padding: 0 0 4.5rem; */
-  background-color: whitesmoke;
+  background-color: rgb(235, 229, 229);
 
   top: 0;
 }
@@ -322,7 +322,22 @@ p {
   }
 
   .big-heading {
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heading {
+    font-size: 9rem;
     text-align: center;
+  }
+
+  .cta {
+    display: flex;
+  }
+
+  #testimonials {
+    display: none;
   }
 }
