@@ -64,13 +64,20 @@ p {
   ); */
   background-image: linear-gradient(
       to right bottom,
+      rgba(14, 174, 87, 0.5),
+      rgba(34, 126, 34, 0.5)
+    ),
+    url("../images/tyler-shaw-BP1Q3Ib_Pyo-unsplash.jpg");
+
+  /* background-image: linear-gradient(
+      to right bottom,
       rgba(126, 213, 111, 0.5),
       rgba(40, 180, 133, 0.5)
     ),
-    url("../images/tyler-shaw-BP1Q3Ib_Pyo-unsplash.jpg");
+    url("../images/tyler-shaw-BP1Q3Ib_Pyo-unsplash.jpg"); */
   background-size: cover;
 
-  color: whitesmoke;
+  color: white;
   text-align: left;
   height: 100vh;
 }
@@ -79,7 +86,7 @@ p {
 
 .navbar {
   /* padding: 0 0 4.5rem; */
-  background-color: rgb(235, 229, 229);
+  background-color: white;
 
   top: 0;
 }
@@ -91,6 +98,10 @@ p {
   height: 125px;
 }
 
+.navbar-toggler {
+  margin-right: 20px;
+}
+
 .nav-item {
   padding: 0 18px;
 }
@@ -99,7 +110,7 @@ p {
   font-size: 1.2rem;
   font-family: "Montserrat";
   font-weight: 400;
-  color: #1363de !important;
+  color: #1363df !important;
   text-transform: uppercase;
 }
 
@@ -123,13 +134,13 @@ p {
 /* icons */
 
 .icons {
-  color: #55c57a;
+  color: rgba(14, 174, 87, 1);
   /* text-align: center; */
   margin-bottom: 1rem;
 }
 
 .icons:hover {
-  color: #55c57a;
+  color: rgba(34, 126, 34, 1);
 }
 
 /* Feature Sections */
@@ -153,10 +164,16 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle farthest-corner at 12.3% 19.3%,
     #7ed56f 0%,
     #28b485 100.2%
+  ); */
+
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(34, 126, 34, 1) 90%
   );
   color: #fff;
 }
@@ -189,10 +206,16 @@ p {
 /* Press */
 
 #press {
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
     circle farthest-corner at 12.3% 19.3%,
     #7ed56f 0%,
     #28b485 100.2%
+  ); */
+
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(34, 126, 34, 1) 90%
   );
   /* background-color: #06283D; */
   padding-bottom: 3%;
@@ -207,10 +230,16 @@ p {
 
 #pricing {
   padding: 100px;
+  /* background-image: linear-gradient(
+    73.1deg,
+    rgba(34, 126, 34, 1) 8%,
+    rgba(99, 162, 17, 1) 86.9%
+  ); */
+
   background-image: radial-gradient(
-    circle farthest-corner at 12.3% 19.3%,
-    #7ed56f 0%,
-    #28b485 100.2%
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(34, 126, 34, 1) 90%
   );
 }
 
@@ -252,8 +281,8 @@ p {
   line-height: 1.5;
   font-weight: 900;
   padding-top: 5rem;
-  padding-left: 15rem;
-  padding-right: 4rem;
+  /* padding-left: 15rem;
+  padding-right: 4rem; */
 }
 
 .about-us-p {
@@ -268,7 +297,7 @@ p {
   margin-top: 7rem;
   font-weight: 900;
   font-size: 2rem;
-  color: #28b485;
+  color: #1363df;
 }
 
 #contactForm {
@@ -279,7 +308,17 @@ p {
 /* Footer */
 
 #footer {
-  background-color: whitesmoke;
+  /* background-image: radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    #7ed56f 0%,
+    #28b485 100.2%
+  ); */
+
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(34, 126, 34, 1) 90%
+  );
   padding-top: 20px;
 }
 
@@ -290,12 +329,14 @@ p {
 
 .footer-info {
   padding-bottom: 5px;
+  color: white;
 }
 
 .footer-cc {
   /* padding-top: 30px; */
-  color: black;
-  padding-bottom: 1rem;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 10px;
 }
 
 /* Media */
@@ -329,7 +370,7 @@ p {
   }
 
   .heading {
-    font-size: 9rem;
+    font-size: 10rem;
     text-align: center;
   }
 
