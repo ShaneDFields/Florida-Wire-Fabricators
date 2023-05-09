@@ -462,11 +462,27 @@ p {
     font-size: 50px;
   }
 
+  #navbarTogglerDemo02 {
+    background-color: white;
+  }
+
+  .show {
+    background-color: white;
+  }
+
+  .nav-text {
+    font-size: 3rem;
+  }
+
+  /* .nav-extended {
+    padding-bottom: 500px;
+  } */
+
   .heading {
     font-size: 8.5rem;
     text-align: center;
 
-    padding-top: 15rem;
+    padding-top: 25rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
