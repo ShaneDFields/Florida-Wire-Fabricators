@@ -99,7 +99,7 @@ p {
 }
 
 .navbar-toggler {
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .nav-item {
@@ -369,9 +369,76 @@ p {
     justify-content: center;
   }
 
+  .navbar {
+    height: 300px;
+  }
+
+  .navbar-brand {
+    height: 200px;
+  }
+
+  .navbar-toggler {
+    /* height: 50px;
+    width: 50px; */
+    padding: 20px;
+  }
+
+  .navbar-toggler-icon {
+    /* height: 50px;
+    width: 50px;
+    padding: 50px; */
+    font-size: 50px;
+  }
+
   .heading {
-    font-size: 10rem;
+    font-size: 8.5rem;
     text-align: center;
+
+    padding-top: 15rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .icons {
+    font-size: 80px;
+  }
+
+  .feature-title {
+    font-size: 3rem;
+  }
+
+  .feature-text {
+    font-size: 2.5rem;
+    font-weight: 400;
+  }
+
+  .price-heading {
+    font-size: 4rem;
+  }
+
+  .price-sub {
+    font-size: 2rem;
+  }
+
+  .price {
+    font-size: 2.5rem;
+  }
+
+  .price-sub-text {
+    font-size: 2rem;
+  }
+
+  .price-button {
+    font-size: 2rem;
+  }
+
+  .big-heading {
+    font-size: 4rem;
+  }
+
+  .about-us-p {
+    font-size: 2.5rem;
+    padding-top: 60px;
   }
 
   .cta {
@@ -380,5 +447,26 @@ p {
 
   #testimonials {
     display: none;
+  }
+
+  .contact-heading {
+    font-size: 4rem;
+  }
+
+  .form-text {
+    font-size: 1.5rem;
+  }
+
+  .footer-info {
+    padding-bottom: 5px;
+    font-size: 2rem;
+  }
+
+  .footer-cc {
+    padding-top: 50px;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 100px;
   }
 }
