@@ -362,6 +362,21 @@ p {
     overflow: hidden;
   }
 
+  .section-divider {
+    padding: 10rem 0;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(14, 174, 87, 0.5),
+        rgba(34, 126, 34, 0.5)
+      ),
+      url("../images/background.jpeg");
+
+    background-size: cover;
+
+    /* transform: skewY(-7deg); */
+    margin-top: -5rem;
+  }
+
   .big-heading {
     font-size: 3rem;
     padding: 0;
@@ -445,16 +460,20 @@ p {
     display: flex;
   }
 
-  /* #testimonials {
+  #testimonials {
     display: none;
-  } */
+  }
 
   .contact-heading {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .form-text {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .form-label {
+    font-size: 2rem;
   }
 
   .footer-info {
