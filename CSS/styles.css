@@ -298,7 +298,7 @@ p {
     url("../images/background.jpeg");
 
   background-size: cover;
-
+  height: 500px;
   /* transform: skewY(-7deg); */
   margin-top: -7rem;
 }
@@ -467,44 +467,49 @@ p {
   }
 
   .icons {
-    font-size: 80px;
+    font-size: 120px;
+    padding-bottom: 50px;
   }
 
   .feature-title {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
   .feature-text {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 400;
   }
 
   .price-heading {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .price-sub {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .price {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
-  .price-sub-text {
-    font-size: 2rem;
-  }
-
-  .price-button {
-    font-size: 2rem;
-  }
-
-  .big-heading {
+  .price-text {
     font-size: 3.5rem;
   }
 
+  .price-sub-text {
+    font-size: 3rem;
+  }
+
+  .price-button {
+    font-size: 3rem;
+  }
+
+  .big-heading {
+    font-size: 5rem;
+  }
+
   .about-us-p {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-top: 60px;
   }
 
@@ -512,30 +517,56 @@ p {
     display: flex;
   }
 
-  #testimonials {
-    display: none;
+  .section-divider {
+    height: 1500px;
+  }
+
+  .contact-cta {
+    /* padding-top: 50px; */
+    font-size: 6.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding-top: 250px;
   }
 
   .contact-heading {
-    font-size: 3.5rem;
+    font-size: 5rem;
+    padding-top: 25px;
+  }
+
+  #contactForm {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .form-text {
-    font-size: 2rem;
+    font-size: 3rem;
+    padding-bottom: 50px;
+  }
+
+  .btn-text {
+    font-size: 3rem;
   }
 
   .form-label {
-    font-size: 2rem;
+    font-size: 3rem;
+  }
+
+  .footer-brand {
+    /* font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold; */
+    height: 300px;
   }
 
   .footer-info {
     padding-bottom: 5px;
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .footer-cc {
     padding-top: 50px;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: white;
     margin-bottom: 0;
     padding-bottom: 100px;
