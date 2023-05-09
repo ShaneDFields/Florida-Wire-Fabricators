@@ -445,9 +445,9 @@ p {
     display: flex;
   }
 
-  #testimonials {
+  /* #testimonials {
     display: none;
-  }
+  } */
 
   .contact-heading {
     font-size: 4rem;
