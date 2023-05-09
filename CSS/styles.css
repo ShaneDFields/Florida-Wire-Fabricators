@@ -102,9 +102,9 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
-  font-weight: 400;
+  font-weight: 900;
   color: #1363df !important;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .nav-text {
@@ -274,7 +274,7 @@ p {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   /* padding-left: 15rem;
   padding-right: 4rem; */
 }
@@ -308,7 +308,7 @@ p {
   line-height: 1.5;
   font-weight: 900;
   /* padding: 0px 50px 50px 50px; */
-  margin-top: -50px;
+  margin-top: -60px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -357,6 +357,52 @@ p {
   color: white;
   margin-bottom: 0;
   padding-bottom: 10px;
+}
+
+/* PRODUCT PAGES */
+
+.product-heading {
+  color: white;
+}
+
+.product-sub-heading {
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* CITRUS STAKE PRODUCT PAGE */
+
+.citrus-stake-hero {
+  background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgba(14, 174, 87, 0.6) 0%,
+      rgba(34, 126, 34, 0.6) 90%
+    ),
+    url("../images/citrus-background.jpeg");
+  background-size: cover;
+}
+
+/* WIRE HANGERS PRODUCT PAGE */
+.wire-hangers-hero {
+  background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgba(14, 174, 87, 0.6) 0%,
+      rgba(34, 126, 34, 0.6) 90%
+    ),
+    url("../images/orchid-background.webp");
+  background-size: cover;
+}
+
+/* GROUND STAPLES PAGE  */
+
+.ground-staples-hero {
+  background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgba(14, 174, 87, 0.6) 0%,
+      rgba(34, 126, 34, 0.6) 90%
+    ),
+    url("../images/ground-staple.jpeg");
+  background-size: cover;
 }
 
 /* Media */
