@@ -62,19 +62,12 @@ p {
     #4b79a1 0%,
     #c0c0c0 100.2%
   ); */
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(14, 174, 87, 0.5),
-      rgba(34, 126, 34, 0.5)
+  background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgba(14, 174, 87, 0.7) 0%,
+      rgba(34, 126, 34, 0.7) 90%
     ),
     url("../images/tyler-shaw-BP1Q3Ib_Pyo-unsplash.jpg");
-
-  /* background-image: linear-gradient(
-      to right bottom,
-      rgba(126, 213, 111, 0.5),
-      rgba(40, 180, 133, 0.5)
-    ),
-    url("../images/tyler-shaw-BP1Q3Ib_Pyo-unsplash.jpg"); */
   background-size: cover;
 
   color: white;
@@ -147,7 +140,7 @@ p {
 
 #features {
   padding: 7% 15%;
-  background-color: whitesmoke;
+  background-color: white;
   position: relative;
   z-index: 1;
 }
@@ -237,10 +230,11 @@ p {
   ); */
 
   background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(14, 174, 87, 1) 0%,
-    rgba(34, 126, 34, 1) 90%
-  );
+      circle farthest-corner at 10% 20%,
+      rgba(14, 174, 87, 0.7) 0%,
+      rgba(34, 126, 34, 0.7) 90%
+    ),
+    url("../images/IMG_5778.jpeg");
 }
 
 .price-heading {
@@ -280,7 +274,7 @@ p {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
-  padding-top: 5rem;
+  padding-top: 1rem;
   /* padding-left: 15rem;
   padding-right: 4rem; */
 }
@@ -293,16 +287,42 @@ p {
   padding-top: 60px;
 }
 
-.contact-heading {
-  margin-top: 7rem;
+.section-divider {
+  padding: 10rem 0;
+  background-image: radial-gradient(
+      circle farthest-corner at 10% 20%,
+      rgba(14, 174, 87, 0.6) 0%,
+      rgba(34, 126, 34, 0.6) 90%
+    ),
+    url("../images/background.jpeg");
+
+  background-size: cover;
+
+  /* transform: skewY(-7deg); */
+  margin-top: -7rem;
+}
+
+.contact-cta {
+  color: white;
+  font-size: 4rem;
+  line-height: 1.5;
   font-weight: 900;
-  font-size: 2rem;
+  /* padding: 0px 50px 50px 50px; */
+  margin-top: -50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.contact-heading {
+  margin-top: 5rem;
+  font-weight: 900;
+  font-size: 3rem;
   color: #1363df;
 }
 
 #contactForm {
   margin-top: 2rem;
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
 }
 
 /* Footer */
@@ -360,21 +380,6 @@ p {
     height: 300px;
     position: relative;
     overflow: hidden;
-  }
-
-  .section-divider {
-    padding: 10rem 0;
-    background-image: linear-gradient(
-        to right bottom,
-        rgba(14, 174, 87, 0.5),
-        rgba(34, 126, 34, 0.5)
-      ),
-      url("../images/background.jpeg");
-
-    background-size: cover;
-
-    /* transform: skewY(-7deg); */
-    margin-top: -5rem;
   }
 
   .big-heading {
@@ -448,7 +453,7 @@ p {
   }
 
   .big-heading {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .about-us-p {
@@ -465,7 +470,7 @@ p {
   }
 
   .contact-heading {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   .form-text {
