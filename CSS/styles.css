@@ -348,6 +348,10 @@ p {
   margin: 20px 10px;
 }
 
+.footer-brand {
+  height: 155px;
+}
+
 .footer-info {
   padding-bottom: 5px;
   color: white;
