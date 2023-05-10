@@ -393,6 +393,18 @@ p {
   background-size: cover;
 }
 
+.wire-bundles {
+  width: 80%;
+  height: 300px;
+  padding-left: 100px;
+}
+
+.wire-stump {
+  width: 80%;
+  height: 300px;
+  padding-left: 150px;
+}
+
 /* WIRE HANGERS PRODUCT PAGE ////////////////////////*/
 .wire-hangers-hero {
   background-image: radial-gradient(
@@ -458,6 +470,16 @@ p {
     ),
     url("../images/ground-staple.jpeg");
   background-size: cover;
+}
+
+.ground-staples {
+  width: 80%;
+  height: 300px;
+  padding-left: 150px;
+}
+
+.ground-staples-col {
+  margin-left: 350px;
 }
 
 /* ////////////////// Media ////////////////////// */
@@ -690,6 +712,28 @@ p {
   }
 
   .pot-clips-col {
+    margin-left: 0;
+  }
+
+  .wire-bundles {
+    width: 90%;
+    height: 300px;
+    padding-left: 120px;
+  }
+
+  .wire-stump {
+    width: 85%;
+    height: 400px;
+    padding-left: 150px;
+  }
+
+  .ground-staples {
+    width: 80%;
+    height: 300px;
+    padding-left: 150px;
+  }
+
+  .ground-staples-col {
     margin-left: 0;
   }
 }
