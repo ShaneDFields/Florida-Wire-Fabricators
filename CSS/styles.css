@@ -536,10 +536,12 @@ p {
 
   #navbarTogglerDemo02 {
     background-color: white;
+    border-bottom: 1px solid grey;
   }
 
   .show {
     background-color: white;
+    border-bottom: 1px solid grey;
   }
 
   .nav-text {
