@@ -392,6 +392,7 @@ p {
     ),
     url("../images/citrus-background.jpeg");
   background-size: cover;
+  margin-top: 135px;
 }
 
 .wire-bundles {
@@ -415,6 +416,7 @@ p {
     ),
     url("../images/orchid-background.webp");
   background-size: cover;
+  margin-top: 135px;
 }
 
 .product-item-heading {
@@ -471,6 +473,7 @@ p {
     ),
     url("../images/ground-staple.jpeg");
   background-size: cover;
+  margin-top: 135px;
 }
 
 .ground-staples {
@@ -684,6 +687,10 @@ p {
     font-size: 2rem;
   }
 
+  .wire-hangers-hero {
+    margin-top: 250px;
+  }
+
   .four-way-hanger {
     width: 100%;
     height: 400px;
@@ -718,6 +725,10 @@ p {
     margin-left: 0;
   }
 
+  .citrus-stake-hero {
+    margin-top: 250px;
+  }
+
   .wire-bundles {
     width: 90%;
     height: 300px;
@@ -730,6 +741,9 @@ p {
     padding-left: 150px;
   }
 
+  .ground-staples-hero {
+    margin-top: 250px;
+  }
   .ground-staples {
     width: 80%;
     height: 300px;
