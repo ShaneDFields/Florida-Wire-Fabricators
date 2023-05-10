@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+  overflow: scroll;
 }
 
 html {
@@ -388,7 +389,7 @@ p {
   background-size: cover;
 }
 
-/* WIRE HANGERS PRODUCT PAGE */
+/* WIRE HANGERS PRODUCT PAGE ////////////////////////*/
 .wire-hangers-hero {
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
@@ -397,6 +398,40 @@ p {
     ),
     url("../images/orchid-background.webp");
   background-size: cover;
+}
+
+.four-way-hanger {
+  width: 100%;
+  height: 300px;
+}
+
+.double-hanger {
+  padding-top: 10px;
+  width: 30%;
+  height: 300px;
+  margin-left: 210px;
+}
+
+.s-hook {
+  padding-left: 100px;
+  width: 80%;
+  height: 300px;
+}
+
+.mini-hanger {
+  padding-left: 200px;
+  width: 80%;
+  height: 300px;
+}
+
+.pot-clips {
+  padding-left: 150px;
+  width: 80%;
+  height: 300px;
+}
+
+.pot-clips-col {
+  margin-left: 300px;
 }
 
 /* GROUND STAPLES PAGE  */
@@ -411,7 +446,7 @@ p {
   background-size: cover;
 }
 
-/* Media */
+/* ////////////////// Media ////////////////////// */
 
 @media (max-width: 1028px) {
   .title-image {
@@ -608,5 +643,39 @@ p {
   .product-sub-heading {
     color: white;
     font-size: 2rem;
+  }
+
+  .four-way-hanger {
+    width: 100%;
+    height: 400px;
+  }
+
+  .double-hanger {
+    padding-top: 10px;
+    width: 30%;
+    height: 400px;
+    margin-left: 240px;
+  }
+
+  .s-hook {
+    padding-left: 100px;
+    width: 80%;
+    height: 400px;
+  }
+
+  .mini-hanger {
+    padding-left: 200px;
+    width: 80%;
+    height: 400px;
+  }
+
+  .pot-clips {
+    padding-left: 150px;
+    width: 80%;
+    height: 400px;
+  }
+
+  .pot-clips-col {
+    margin-left: 0;
   }
 }
