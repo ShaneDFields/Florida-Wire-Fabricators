@@ -41,7 +41,7 @@ p {
   font-size: 6rem;
   line-height: 1.5;
   font-weight: 900;
-  padding-top: 10rem;
+  padding-top: 15rem;
   padding-left: 8rem;
   padding-right: 4rem;
 }
@@ -80,7 +80,7 @@ p {
 .navbar {
   /* padding: 0 0 4.5rem; */
   background-color: white;
-
+  border-bottom: 1px solid grey;
   top: 0;
 }
 
@@ -88,7 +88,7 @@ p {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
-  height: 125px;
+  height: 100px;
 }
 
 .navbar-toggler {
@@ -102,7 +102,8 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
-  font-weight: 900;
+  font-weight: 400;
+  text-transform: uppercase;
   color: #1363df !important;
   /* text-transform: uppercase; */
 }
@@ -513,11 +514,11 @@ p {
   }
 
   .navbar {
-    height: 300px;
+    height: 200px;
   }
 
   .navbar-brand {
-    height: 200px;
+    height: 190px;
   }
 
   .navbar-toggler {
@@ -553,7 +554,7 @@ p {
     font-size: 8.5rem;
     text-align: center;
 
-    padding-top: 20rem;
+    padding-top: 30rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
