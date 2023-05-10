@@ -88,7 +88,7 @@ p {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
-  height: 100px;
+  height: 120px;
 }
 
 .navbar-toggler {
@@ -102,7 +102,7 @@ p {
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat";
-  font-weight: 400;
+  font-weight: 700;
   text-transform: uppercase;
   color: #1363df !important;
   /* text-transform: uppercase; */
@@ -514,11 +514,11 @@ p {
   }
 
   .navbar {
-    height: 200px;
+    height: 250px;
   }
 
   .navbar-brand {
-    height: 190px;
+    height: 230px;
   }
 
   .navbar-toggler {
@@ -543,7 +543,7 @@ p {
   }
 
   .nav-text {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   /* .nav-extended {
