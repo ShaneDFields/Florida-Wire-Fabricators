@@ -44,6 +44,8 @@ p {
   padding-top: 15rem;
   padding-left: 8rem;
   padding-right: 4rem;
+  /* text-shadow: 2px 2px #355f6d; */
+  text-shadow: 2px 2px rgba(34, 126, 34, 1);
 }
 
 .section-heading {
@@ -62,12 +64,7 @@ p {
     #4b79a1 0%,
     #c0c0c0 100.2%
   ); */
-  background-image: radial-gradient(
-      circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.5) 0%,
-      rgba(34, 126, 34, 0.5) 90%
-    ),
-    url("../images/wire-warehouse.jpeg");
+  background-image: url("../images/wire-warehouse.jpeg");
   background-size: cover;
 
   color: white;
@@ -237,8 +234,8 @@ p {
 
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.7) 0%,
-      rgba(34, 126, 34, 0.7) 90%
+      rgba(14, 174, 87, 0.4) 0%,
+      rgba(34, 126, 34, 0.4) 90%
     ),
     url("../images/IMG_5778.jpeg");
   background-size: cover;
@@ -246,10 +243,14 @@ p {
 
 .price-heading {
   color: white;
+  text-shadow: 2px 2px rgba(34, 126, 34, 1);
 }
 
 .price-sub {
   color: white;
+  text-shadow: 2px 2px rgba(34, 126, 34, 1);
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .price-text {
@@ -298,8 +299,8 @@ p {
   padding: 10rem 0;
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.6) 0%,
-      rgba(34, 126, 34, 0.6) 90%
+      rgba(14, 174, 87, 0.3) 0%,
+      rgba(34, 126, 34, 0.3) 90%
     ),
     url("../images/background.jpeg");
 
@@ -318,6 +319,7 @@ p {
   margin-top: -60px;
   margin-left: 50px;
   margin-right: 50px;
+  text-shadow: 2px 2px rgba(34, 126, 34, 1);
 }
 
 .contact-heading {
@@ -510,12 +512,7 @@ p {
     height: 100vh; */
     /* background-size: 200% 100vh;
     background-repeat: no-repeat; */
-    background-image: radial-gradient(
-        circle farthest-corner at 10% 20%,
-        rgba(14, 174, 87, 0.6) 0%,
-        rgba(34, 126, 34, 0.6) 90%
-      ),
-      url("../images/wire-background-mobile.jpeg");
+    background-image: url("../images/wire-background-mobile.jpeg");
   }
 
   .testimonial-image {
