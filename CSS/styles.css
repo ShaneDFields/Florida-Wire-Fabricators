@@ -601,6 +601,9 @@ p {
 .product-heading {
   color: white;
   text-shadow: 3px 3px rgba(34, 126, 34, 1);
+  font-size: 4rem;
+  padding: 2rem;
+  text-transform: uppercase;
 }
 
 .product-sub-heading {
