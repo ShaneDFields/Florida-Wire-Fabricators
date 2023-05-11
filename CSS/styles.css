@@ -64,10 +64,10 @@ p {
   ); */
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.7) 0%,
-      rgba(34, 126, 34, 0.7) 90%
+      rgba(14, 174, 87, 0.5) 0%,
+      rgba(34, 126, 34, 0.5) 90%
     ),
-    url("../images/tyler-shaw-BP1Q3Ib_Pyo-unsplash.jpg");
+    url("../images/wire-warehouse.jpeg");
   background-size: cover;
 
   color: white;
@@ -500,6 +500,22 @@ p {
 
   #title {
     text-align: center;
+    /* display: block;
+    margin: 0 auto; */
+    /* background-size: 600%;
+    background-repeat: no-repeat;
+
+    color: white;
+    text-align: left;
+    height: 100vh; */
+    /* background-size: 200% 100vh;
+    background-repeat: no-repeat; */
+    background-image: radial-gradient(
+        circle farthest-corner at 10% 20%,
+        rgba(14, 174, 87, 0.6) 0%,
+        rgba(34, 126, 34, 0.6) 90%
+      ),
+      url("../images/wire-background-mobile.jpeg");
   }
 
   .testimonial-image {
@@ -559,7 +575,7 @@ p {
     font-size: 8.5rem;
     text-align: center;
 
-    padding-top: 30rem;
+    padding-top: 35rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
