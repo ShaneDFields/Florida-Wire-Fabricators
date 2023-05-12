@@ -68,8 +68,8 @@ p {
   ); */
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.1) 0%,
-      rgba(34, 126, 34, 0.1) 90%
+      rgb(128, 128, 128, 0.5) 0%,
+      rgb(35, 34, 34, 0.5) 90%
     ),
     url("../images/tyler-shaw-BP1Q3Ib_Pyo-unsplash.jpg");
 
@@ -239,8 +239,8 @@ p {
 
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.1) 0%,
-      rgba(34, 126, 34, 0.1) 90%
+      rgb(128, 128, 128, 0.5) 0%,
+      rgb(35, 34, 34, 0.5) 90%
     ),
     url("../images/IMG_5778.jpeg");
   background-size: cover;
@@ -287,7 +287,8 @@ p {
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
-  /* padding-top: 1rem; */
+
+  padding-top: 1rem;
   /* padding-left: 15rem;
   padding-right: 4rem; */
 }
@@ -297,15 +298,15 @@ p {
   font-weight: 400;
   color: black;
   font-size: 1.5rem;
-  padding-top: 60px;
+  padding-top: 2rem;
 }
 
 .section-divider {
   padding: 10rem 0;
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.1) 0%,
-      rgba(34, 126, 34, 0.1) 90%
+      rgb(128, 128, 128, 0.5) 0%,
+      rgb(35, 34, 34, 0.5) 90%
     ),
     url("../images/4k-nursery.avif");
 
@@ -324,7 +325,7 @@ p {
   margin-top: -60px;
   margin-left: 50px;
   margin-right: 50px;
-  text-shadow: 3px 3px rgba(34, 126, 34, 1);
+  text-shadow: 2px 2px rgba(34, 126, 34, 1);
 }
 
 .contact-heading {
@@ -614,8 +615,8 @@ p {
 .citrus-stake-hero {
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.1) 0%,
-      rgba(34, 126, 34, 0.1) 90%
+      rgb(128, 128, 128, 0.5) 0%,
+      rgb(35, 34, 34, 0.5) 90%
     ),
     url("../images/citrus-background.jpeg");
   background-size: cover;
@@ -638,8 +639,8 @@ p {
 .wire-hangers-hero {
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.1) 0%,
-      rgba(34, 126, 34, 0.1) 90%
+      rgb(128, 128, 128, 0.5) 0%,
+      rgb(35, 34, 34, 0.5) 90%
     ),
     url("../images/orchid-background.webp");
   background-size: cover;
@@ -695,8 +696,8 @@ p {
 .ground-staples-hero {
   background-image: radial-gradient(
       circle farthest-corner at 10% 20%,
-      rgba(14, 174, 87, 0.1) 0%,
-      rgba(34, 126, 34, 0.1) 90%
+      rgb(128, 128, 128, 0.5) 0%,
+      rgb(35, 34, 34, 0.5) 90%
     ),
     url("../images/ground-staple.jpeg");
   background-size: cover;
