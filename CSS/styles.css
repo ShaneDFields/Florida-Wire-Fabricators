@@ -105,10 +105,10 @@ p {
 }
 
 .nav-link {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-family: "Montserrat";
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 400;
+
   color: #1363df !important;
   /* text-transform: uppercase; */
 }
