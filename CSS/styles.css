@@ -47,7 +47,7 @@ p {
   padding-left: 8rem;
   padding-right: 4rem;
   /* text-shadow: 2px 2px #355f6d; */
-  text-shadow: 3px 3px rgba(34, 126, 34, 1);
+  /* text-shadow: 3px 3px rgba(34, 126, 34, 1); */
 }
 
 .section-heading {
@@ -248,12 +248,12 @@ p {
 
 .price-heading {
   color: white;
-  text-shadow: 3px 3px rgba(34, 126, 34, 1);
+  /* text-shadow: 3px 3px rgba(34, 126, 34, 1); */
 }
 
 .price-sub {
   color: white;
-  text-shadow: 3px 3px rgba(34, 126, 34, 1);
+  /* text-shadow: 3px 3px rgba(34, 126, 34, 1); */
   font-size: 1.5rem;
   font-weight: 900;
 }
@@ -325,7 +325,7 @@ p {
   margin-top: -60px;
   margin-left: 50px;
   margin-right: 50px;
-  text-shadow: 2px 2px rgba(34, 126, 34, 1);
+  /* text-shadow: 2px 2px rgba(34, 126, 34, 1); */
 }
 
 .contact-heading {
@@ -598,7 +598,7 @@ p {
 
 .product-heading {
   color: white;
-  text-shadow: 3px 3px rgba(34, 126, 34, 1);
+  /* text-shadow: 3px 3px rgba(34, 126, 34, 1); */
   font-size: 4rem;
   padding: 2rem;
   text-transform: uppercase;
@@ -607,7 +607,7 @@ p {
 .product-sub-heading {
   color: white;
   font-size: 1.5rem;
-  text-shadow: 3px 3px rgba(34, 126, 34, 1);
+  /* text-shadow: 3px 3px rgba(34, 126, 34, 1); */
 }
 
 /* CITRUS STAKE PRODUCT PAGE */
