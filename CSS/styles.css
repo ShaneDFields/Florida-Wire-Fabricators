@@ -113,9 +113,6 @@ p {
   /* text-transform: uppercase; */
 }
 
-.nav-text {
-  color: #55c57a;
-}
 /* Download Buttons */
 
 .download-button {
@@ -789,7 +786,7 @@ p {
   }
 
   .nav-text {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   /* .nav-extended {
